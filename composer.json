@@ -1,0 +1,29 @@
+{
+    "name": "whitecube/foobar",
+    "description": "Issue sample for pestphp/pest",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Whitecube\\Foobar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Whitecube\\Foobar\\Tests\\Fixtures\\": "tests/Fixtures"
+        }
+    },
+    "authors": [
+        {
+            "name": "Toon Van den Bos",
+            "email": "toon@whitecube.be"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.31"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
